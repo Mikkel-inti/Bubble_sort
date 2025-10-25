@@ -1,7 +1,7 @@
 # Bubble sort algorithm
 
 Dette C-program er lavet i forbindelse med kursus: **62712- Basic C-programmeing**, 
-der implementerer BUbble sort algoritmen. 
+der implementerer Bubble sort algoritmen. 
 Programmet tager ikke brugerinput.
 
 ## Filer
