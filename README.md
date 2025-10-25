@@ -15,9 +15,9 @@ Programmet tager ikke brugerinput.
 - 
 - `bool letters_in_order(char letter1, char letter2)`
 
-- bool numbers_ascending(char num1, char num2);
+- `bool numbers_ascending(char num1, char num2);`
 
-- void bubble_sort(char arr[], bool (*pair_is_in_order)(char, char))
+- `void bubble_sort(char arr[], bool (*pair_is_in_order)(char, char))`
   
 ## How to use eksempel:
  
