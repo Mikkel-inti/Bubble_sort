@@ -2,7 +2,7 @@
 
 Dette C-program er lavet i forbindelse med kursus: **62712- Basic C-programmeing**, 
 der implementerer Bubble sort algoritmen. 
-Programmet tager ikke brugerinput.
+*Programmet tager ikke brugerinput*.
 
 ## Filer
 - `bubble_sort.h` – **deklarering af funktioner og konstanter:**  *letters_in_order*, *numbers_ascending*, *swap* samt *bubble_sort*.
@@ -18,6 +18,18 @@ Programmet tager ikke brugerinput.
 - Tjekker om num1 kommer før/ligmed num2 (stigende rækkefølge) og returnerer True, ellers false.
 - `void bubble_sort(char arr[], bool (*pair_is_in_order)(char, char))`
 - Sorterer et char array med bubble sort algorithmen. Funktionspointeren(pair_is_order), der angiver om to elementer er i korrekt orden, sendes som argument, hvor af rækkefølgen bliver bestemt.
+- `void print_char_arr(const char arr[], size_t len)`
+- printer char array
+- `void print_char_arr(const char arr[], size_t len)`
   
-## How to use eksempel:
- 
+## Kørsel eksempel med `SIZE=4` array:
+med følgende arrays:
+
+-`char letter_arr1[] = {'z', 'S', 's', 'a'}`
+-`char number_arr1[] = {4, -1, 2, 9};`
+
+### Udskrift for eksempel
+ ```
+-1 2 4 9 
+a S s z  
+```
