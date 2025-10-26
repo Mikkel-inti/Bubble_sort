@@ -22,13 +22,13 @@ der implementerer Bubble sort algoritmen.
 - printer char array
 - `void print_char_arr(const char arr[], size_t len)`
   
-## Kørsel eksempel med `SIZE=4` array:
-med følgende arrays:
+## Kørsel eksempel med `SIZE=4` array (char/num):
 
 -`char letter_arr1[] = {'z', 'S', 's', 'a'}`
+
 -`char number_arr1[] = {4, -1, 2, 9};`
 
-### Udskrift for eksempel
+### Udskrift 
  ```
 -1 2 4 9 
 a S s z  
